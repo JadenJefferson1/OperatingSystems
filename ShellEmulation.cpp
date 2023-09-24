@@ -40,9 +40,9 @@ int main()
                         // Parent process
                         waitpid(-1, &status, 0);
                 }
-                // Child process
+                // Child process 
                 else{          
-                        // Change directory
+                        // Change current directory
                         if(strcmp(newargv[0], "clear") == 0){
                                 system("clear");
                         }              
